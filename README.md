@@ -12,7 +12,7 @@ Prerequisites:
 
 •  Terraform
 
-•  MySQL database[Uploading ec2.tf…]()
+•  MySQL database
 
 •  Apache web server
 
