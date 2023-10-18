@@ -8,20 +8,16 @@ Prerequisites:
 •  Load Balancer
 •  Terraform
 •  MySQL database[Uploading ec2.tf…]()
-
-
-
 •  Apache web server
 •  Wordpress app
+
+
 Creation of VPC and Ec2 instance using Terraform
 • Install Terraform on your local machine
 • Install AWS CLI to local machine
 • Using this connect your local machine to your AWS account using command       
 aws configure 
-• Create a file called Provider.tf, vpc.tf, key.tf, ec2.tf, sg.tf. To create vpc networking in that we used 2
-private subnets and 2 public subnets which is in 2 availability zones, IGW gateway, NAT gateway, router
-and 2 ec2 machines ion which one is bastion server which is in public subnet and other one is app server
-which is in private subnet
+• Create a file called Provider.tf, vpc.tf, key.tf, ec2.tf, sg.tf. To create vpc networking in that we used private subnets and 2 public subnets which is in 2 availability zones, IGW gateway, NAT gateway, router and 2 ec2 machines ion which one is bastion server which is in public subnet and other one is app server which is in private subnet
 • Initialize terraform in this folder using command 
 
       terraform init
