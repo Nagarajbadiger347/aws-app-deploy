@@ -28,11 +28,11 @@ which is in private subnet
 
 • To view the plan what we are creating in the aws cloud platform use 
 
-        terraform plan
+      terraform plan
 
 • To apply all palns to execute use  
         
-        terraform apply
+      terraform apply
 
   
 Creation of Load Balancer
@@ -104,15 +104,15 @@ Installing the WordPress app by using the following command
 
 • Enable the wordpress site with the following command
 
-      sudo a2ensite wordpress
+       sudo a2ensite wordpress
       
 • Enable URL rewriting with command
       
-      sudo a22enmod rewrite
+       sudo a22enmod rewrite
       
 • Disable the default “It Works” site with
       
-      "sudo a2dissite 000-default
+       sudo a2dissite 000-default
 • Reload the apache server to change these settings
        
        sudo service apache2 reload
