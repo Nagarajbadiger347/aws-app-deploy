@@ -3,12 +3,19 @@ Deploying Wordpress App Over AWS Cloud
 
 Prerequisites:
 •  AWS cloud platform
+
 •  Ec2 instance (Uuntu)
+
 •  Networking (VPC, SG)
+
 •  Load Balancer
+
 •  Terraform
+
 •  MySQL database[Uploading ec2.tf…]()
+
 •  Apache web server
+
 •  Wordpress app
 
 
